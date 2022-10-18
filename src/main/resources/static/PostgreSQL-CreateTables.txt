@@ -1,0 +1,16 @@
+CREATE TABLE t_ceo (
+	id integer PRIMARY KEY,
+	name varchar (40),
+	birthday Date,
+	sex varchar (10),
+	telephone varchar (11)
+);
+
+CREATE TABLE t_companies (
+	id integer PRIMARY KEY,
+	ceo_id integer,
+	name varchar(40),
+	address varchar(40),
+	creation_date Date,
+	FOREIGN KEY (ceo_id) REFERENCES t_ceo (id)
+);

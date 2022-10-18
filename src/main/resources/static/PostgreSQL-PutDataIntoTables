@@ -1,0 +1,3 @@
+INSERT INTO t_ceo VALUES (1, 'Max Payne', '1976-04-11', 'male', '94321113322');
+
+INSERT INTO t_companies VALUES (1, 3, 'Super Software Company (SSC)', 'USA, Colorado', '2011-04-11');
